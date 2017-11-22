@@ -1,6 +1,6 @@
 FactoryBot.define do
   factory :schedule do
-    name "MyString"
+    name { Faker::Lorem.sentence }
     current_position 1
   end
 end
