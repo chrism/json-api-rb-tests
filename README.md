@@ -1,24 +1,13 @@
-# README
+# JSON API RB TESTS
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the same approach using a different ruby gem to build out the JSONAPI server.
 
-Things you may want to cover:
 
-* Ruby version
 
-* System dependencies
+## Notes
 
-* Configuration
+### Client side using Ember.js
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+https://github.com/jsonapi-suite/ember-data-extensions
+An addon for posting nested models which might solve this issue
+https://emberigniter.com/saving-models-relationships-json-api/

@@ -13,6 +13,9 @@ class SerializableSchedule < JSONAPI::Serializable::Resource
   # attribute :name do
   #   @object.name.upcase
   # end
+
+  id { @object.slug }
+
   attribute :name
   attribute :current_position
 end
